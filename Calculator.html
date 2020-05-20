@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a5277ae3c.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="header">
+		<form name="form">
+            <input name="textview" type="text" placeholder="0.0" class="account" readonly>
+			<input name="textresults" type="text" placeholder="0.0" class="result" readonly>
+		</form>	            
+        </div>
+
+        <div class="main">
+
+            <button onclick="reset()" class="btn-clean">C</button>
+            <button onclick="backspace()" class="btn-back"><i class="fas fa-backspace"></i></button>
+            <button onclick="input(this)" class="btn-action">*</button>
+            <button onclick="input(this)" class="btn-action">%</button>
+            <button onclick="input(this)" class="btn-action">+</button>
+            <button onclick="input(this)" class="btn-action">-</button>
+            <button onclick="input(this)" class="btn">7</button>
+            <button onclick="input(this)" class="btn">8</button>
+            <button onclick="input(this)" class="btn">9</button>
+            <button onclick="input(this)" class="btn-action">(</button>
+            <button onclick="input(this)" class="btn">4</button>
+            <button onclick="input(this)" class="btn">5</button>
+            <button onclick="input(this)" class="btn">6</button>
+            <button onclick="input(this)" class="btn-action">)</button>
+            <button onclick="input(this)" class="btn">1</button>
+            <button onclick="input(this)" class="btn">2</button>
+            <button onclick="input(this)" class="btn">3</button>
+            <button onclick="result()" class="btn-result"><i class="fas fa-equals"></i></button>
+            <button onclick="input(this)" class="btn-zero">0</button>
+            <button onclick="input(this)" class="btn">.</button>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="new.js"></script>
+</body>
+
+</html>
